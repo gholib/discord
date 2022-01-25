@@ -42,3 +42,4 @@ for user_id in users:
     time.sleep(random.randint(30, 120))
     bot.sendMessage(channel_id, message)
     save(blacklist)
+    time.sleep(random.randint(15, 30))
